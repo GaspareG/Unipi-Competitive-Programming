@@ -48,10 +48,10 @@ Problems:
 - [X] 44) Longest common subsequence https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
 - [X] 45) 0-1 knapsack http://www.practice.geeksforgeeks.org/problem-page.php?pid=909
 - [X] 46) Longest increasing subsequence https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
-- [ ] 47) Minimum number of jumps https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+- [X] 47) Minimum number of jumps https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
 - [X] 48) Edit distance https://practice.geeksforgeeks.org/problems/edit-distance/0
-- [ ] 49) Longest bitonic subsequence https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0
-- [ ] 50) Subset sum https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
+- [X] 49) Longest bitonic subsequence https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0
+- [X] 50) Subset sum https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
 - [X] 51) Vertex cover http://www.spoj.com/problems/PT07X/
 - [ ] 52) Longest palindromic subsequence https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence/0
 - [ ] 53) Longest prefix suffix https://practice.geeksforgeeks.org/problems/longest-prefix-suffix/0
