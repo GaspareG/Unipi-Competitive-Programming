@@ -11,7 +11,7 @@ Problems:
 - [ ] 07) Towers http://codeforces.com/problemset/problem/37/A?locale=en
 - [ ] 08) Finding Team Member http://codeforces.com/problemset/problem/579/B?locale=en
 - [ ] 09) Inversion count http://www.spoj.com/problems/INVCNT/
-- [ ] 10) Largest Even Number http://practice.geeksforgeeks.org/problems/largest-even-number/0
+- [X] 10) Largest Even Number http://practice.geeksforgeeks.org/problems/largest-even-number/0
 - [ ] 11) Firing employees http://practice.geeksforgeeks.org/problems/firing-employees/0
 - [ ] 12) Check for BST http://practice.geeksforgeeks.org/problems/check-for-bst/1
 - [ ] 13) Preorder traversal and BST http://practice.geeksforgeeks.org/problems/preorder-traversal-and-bst/0
@@ -46,13 +46,13 @@ Problems:
 - [ ] 42) Woodcutters http://codeforces.com/contest/545/problem/C?locale=en
 - [ ] 43) Queue http://codeforces.com/problemset/problem/141/C?locale=en
 - [ ] 44) Longest common subsequence https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
-- [ ] 45) 0-1 knapsack http://www.practice.geeksforgeeks.org/problem-page.php?pid=909
+- [X] 45) 0-1 knapsack http://www.practice.geeksforgeeks.org/problem-page.php?pid=909
 - [ ] 46) Longest increasing subsequence https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
 - [ ] 47) Minimum number of jumps https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
 - [X] 48) Edit distance https://practice.geeksforgeeks.org/problems/edit-distance/0
 - [ ] 49) Longest bitonic subsequence https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0
 - [ ] 50) Subset sum https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
-- [ ] 51) Vertex cover http://www.spoj.com/problems/PT07X/
+- [X] 51) Vertex cover http://www.spoj.com/problems/PT07X/
 - [ ] 52) Longest palindromic subsequence https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence/0
 - [ ] 53) Longest prefix suffix https://practice.geeksforgeeks.org/problems/longest-prefix-suffix/0
 - [ ] 54) Shift the string https://www.codechef.com/problems/TASHIFT
