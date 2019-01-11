@@ -10,7 +10,7 @@ Problems:
 - [ ] 06) Next larger element http://practice.geeksforgeeks.org/problems/next-larger-element/0
 - [ ] 07) Towers http://codeforces.com/problemset/problem/37/A?locale=en
 - [ ] 08) Finding Team Member http://codeforces.com/problemset/problem/579/B?locale=en
-- [ ] 09) Inversion count http://www.spoj.com/problems/INVCNT/
+- [X] 09) Inversion count http://www.spoj.com/problems/INVCNT/
 - [X] 10) Largest Even Number http://practice.geeksforgeeks.org/problems/largest-even-number/0
 - [ ] 11) Firing employees http://practice.geeksforgeeks.org/problems/firing-employees/0
 - [ ] 12) Check for BST http://practice.geeksforgeeks.org/problems/check-for-bst/1
