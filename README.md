@@ -37,7 +37,7 @@ Problems:
 - [ ] 33) Learning languages http://codeforces.com/problemset/problem/277/A?locale=en
 - [ ] 34) Checkposts http://codeforces.com/problemset/problem/427/C?locale=en
 - [ ] 35) Xenia and Tree (optional problem) http://codeforces.com/problemset/problem/342/E?locale=en
-- [ ] 36) Minimum spanning tree http://www.spoj.com/problems/MST/
+- [X] 36) Minimum spanning tree http://www.spoj.com/problems/MST/
 - [ ] 37) N meetings in one room http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0
 - [ ] 38) Magic numbers http://codeforces.com/problemset/problem/320/A?locale=en
 - [ ] 39) Wilbur and array http://codeforces.com/problemset/problem/596/B?locale=en
@@ -49,7 +49,7 @@ Problems:
 - [ ] 45) 0-1 knapsack http://www.practice.geeksforgeeks.org/problem-page.php?pid=909
 - [ ] 46) Longest increasing subsequence https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
 - [ ] 47) Minimum number of jumps https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
-- [ ] 48) Edit distance https://practice.geeksforgeeks.org/problems/edit-distance/0
+- [X] 48) Edit distance https://practice.geeksforgeeks.org/problems/edit-distance/0
 - [ ] 49) Longest bitonic subsequence https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0
 - [ ] 50) Subset sum https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
 - [ ] 51) Vertex cover http://www.spoj.com/problems/PT07X/
