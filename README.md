@@ -45,9 +45,9 @@ Problems:
 - [ ] 41) Lexicographically maximum subsequence http://codeforces.com/problemset/problem/196/A?locale=en
 - [ ] 42) Woodcutters http://codeforces.com/contest/545/problem/C?locale=en
 - [ ] 43) Queue http://codeforces.com/problemset/problem/141/C?locale=en
-- [ ] 44) Longest common subsequence https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
+- [X] 44) Longest common subsequence https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
 - [X] 45) 0-1 knapsack http://www.practice.geeksforgeeks.org/problem-page.php?pid=909
-- [ ] 46) Longest increasing subsequence https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
+- [X] 46) Longest increasing subsequence https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
 - [ ] 47) Minimum number of jumps https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
 - [X] 48) Edit distance https://practice.geeksforgeeks.org/problems/edit-distance/0
 - [ ] 49) Longest bitonic subsequence https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0
