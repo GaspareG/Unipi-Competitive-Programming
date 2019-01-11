@@ -2,8 +2,8 @@
 
 Problems:
 
-- [ ] 01) Leaders in array http://practice.geeksforgeeks.org/problems/leaders-in-an-array/0
-- [ ] 02) Kadane's algorithm http://practice.geeksforgeeks.org/problems/kadanes-algorithm/0
+- [X] 01) Leaders in array http://practice.geeksforgeeks.org/problems/leaders-in-an-array/0
+- [X] 02) Kadane's algorithm http://practice.geeksforgeeks.org/problems/kadanes-algorithm/0
 - [ ] 03) Missing number in array http://practice.geeksforgeeks.org/problems/missing-number-in-array/0
 - [ ] 04) Trapping rain water http://practice.geeksforgeeks.org/problems/trapping-rain-water/0
 - [ ] 05) Sliding window maximum http://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0
