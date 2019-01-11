@@ -1,6 +1,6 @@
 /*
   Author: Gaspare Ferraro <ferraro@gaspa.re>
-  Problem: <url>
+  Problem: <https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0>
 
   Solution description:
 
