@@ -53,6 +53,6 @@ Problems:
 - [X] 49) Longest bitonic subsequence https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0
 - [X] 50) Subset sum https://practice.geeksforgeeks.org/problems/subset-sum-problem/0
 - [X] 51) Vertex cover http://www.spoj.com/problems/PT07X/
-- [ ] 52) Longest palindromic subsequence https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence/0
+- [X] 52) Longest palindromic subsequence https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence/0
 - [ ] 53) Longest prefix suffix https://practice.geeksforgeeks.org/problems/longest-prefix-suffix/0
 - [ ] 54) Shift the string https://www.codechef.com/problems/TASHIFT
