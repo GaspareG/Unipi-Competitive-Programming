@@ -1,15 +1,17 @@
 /*
   Author: Gaspare Ferraro <ferraro@gaspa.re>
-  Problem: <url>
+  Problem: <https://codeforces.com/problemset/problem/6/C?locale=en>
 
   Solution description:
 
+    Just simulate by keeping two pointers for Alice on the left
+    and Bob on the right
 
-  Time  complexity: O()
-  Space complexity: O()
+  Time  complexity: O(N)
+  Space complexity: O(N)
 
   Where:
-
+  - N is the size of the input vector
 */
 
 #include <iostream>
@@ -33,7 +35,32 @@ int main()
 {
   std::ios_base::sync_with_stdio(false);
 
-  /* Solution */
+  int N;
+  std::cin >> N;
+  std::vector<int> V(N);
+  for(int i=0; i<N; i++) std::cin >> V[i];
+
+  int lIdx = 0;
+  int rIdx = N-1;
+
+  int lTime = 0;
+  int rTime = 0;
+
+  while(lIdx <= rIdx)
+  {
+    if(lTime <= rTime)
+    {
+      lTime += V[lIdx];
+      lIdx++;
+    }
+    else
+    {
+      rTime += V[rIdx];
+      rIdx--;
+    }
+  }
+
+  std::cout << lIdx << " " << (N-lIdx) << std::endl;
 
   return 0;
 }

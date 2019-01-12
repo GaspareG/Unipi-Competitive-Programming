@@ -17,7 +17,7 @@ Problems:
 - [ ] 13) Preorder traversal and BST http://practice.geeksforgeeks.org/problems/preorder-traversal-and-bst/0
 - [ ] 14) Maximum path sum http://practice.geeksforgeeks.org/problems/maximum-path-sum/1
 - [ ] 15) Ilya and Queries http://codeforces.com/problemset/problem/313/B?locale=en
-- [ ] 16) Alice, Bob and chocolate http://codeforces.com/problemset/problem/6/C?locale=en
+- [X] 16) Alice, Bob and chocolate http://codeforces.com/problemset/problem/6/C?locale=en
 - [ ] 17) Number of ways http://codeforces.com/problemset/problem/466/C?locale=en
 - [ ] 18) Little girl and maximum sum http://codeforces.com/problemset/problem/276/C?locale=en
 - [ ] 19) Update the array http://www.spoj.com/problems/UPDATEIT/
