@@ -1,14 +1,16 @@
 /*
   Author: Gaspare Ferraro <ferraro@gaspa.re>
-  Problem: <url>
+  Problem: <https://codeforces.com/problemset/problem/37/A?locale=en>
 
   Solution description:
 
+    Keep max frequency and number of distinct elements
 
-  Time  complexity: O()
-  Space complexity: O()
+  Time  complexity: O(N)
+  Space complexity: O(1)
 
   Where:
+  - N is the size of the input vector
 
 */
 
@@ -33,7 +35,18 @@ int main()
 {
   std::ios_base::sync_with_stdio(false);
 
-  /* Solution */
+  int N, m = 0, c = 0;
+  std::cin >> N;
+  std::vector<int> V(1001, 0);
+  for(int i=0; i<N; i++)
+  {
+    int x;
+    std::cin >> x;
+    V[x]++;
+    if(V[x] == 1) c++;
+    m = std::max(m, V[x]);
+  }
 
+  std::cout << m << " " << c << std::endl;
   return 0;
 }

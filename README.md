@@ -8,8 +8,8 @@ Problems:
 - [X] 04) Trapping rain water http://practice.geeksforgeeks.org/problems/trapping-rain-water/0
 - [X] 05) Sliding window maximum http://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0
 - [X] 06) Next larger element http://practice.geeksforgeeks.org/problems/next-larger-element/0
-- [ ] 07) Towers http://codeforces.com/problemset/problem/37/A?locale=en
-- [ ] 08) Finding Team Member http://codeforces.com/problemset/problem/579/B?locale=en
+- [X] 07) Towers http://codeforces.com/problemset/problem/37/A?locale=en
+- [X] 08) Finding Team Member http://codeforces.com/problemset/problem/579/B?locale=en
 - [X] 09) Inversion count http://www.spoj.com/problems/INVCNT/
 - [X] 10) Largest Even Number http://practice.geeksforgeeks.org/problems/largest-even-number/0
 - [ ] 11) Firing employees http://practice.geeksforgeeks.org/problems/firing-employees/0
@@ -18,7 +18,7 @@ Problems:
 - [ ] 14) Maximum path sum http://practice.geeksforgeeks.org/problems/maximum-path-sum/1
 - [ ] 15) Ilya and Queries http://codeforces.com/problemset/problem/313/B?locale=en
 - [X] 16) Alice, Bob and chocolate http://codeforces.com/problemset/problem/6/C?locale=en
-- [ ] 17) Number of ways http://codeforces.com/problemset/problem/466/C?locale=en
+- [X] 17) Number of ways http://codeforces.com/problemset/problem/466/C?locale=en
 - [ ] 18) Little girl and maximum sum http://codeforces.com/problemset/problem/276/C?locale=en
 - [ ] 19) Update the array http://www.spoj.com/problems/UPDATEIT/
 - [ ] 20) Megacity http://codeforces.com/problemset/problem/424/B?locale=en
