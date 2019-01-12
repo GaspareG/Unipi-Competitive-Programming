@@ -22,7 +22,7 @@ Problems:
 - [ ] 18) Little girl and maximum sum http://codeforces.com/problemset/problem/276/C?locale=en
 - [ ] 19) Update the array http://www.spoj.com/problems/UPDATEIT/
 - [ ] 20) Megacity http://codeforces.com/problemset/problem/424/B?locale=en
-- [ ] 21) Find pair http://codeforces.com/problemset/problem/160/C?locale=en
+- [X] 21) Find pair http://codeforces.com/problemset/problem/160/C?locale=en
 - [ ] 22) Two heaps http://codeforces.com/problemset/problem/353/B?locale=en
 - [ ] 23) Circular RMQ http://codeforces.com/problemset/problem/52/C
 - [ ] 24) Nested segments http://codeforces.com/problemset/problem/652/D?locale=en
@@ -42,7 +42,7 @@ Problems:
 - [ ] 38) Magic numbers http://codeforces.com/problemset/problem/320/A?locale=en
 - [ ] 39) Wilbur and array http://codeforces.com/problemset/problem/596/B?locale=en
 - [ ] 40) Alternative thinking http://codeforces.com/problemset/problem/603/A?locale=en
-- [ ] 41) Lexicographically maximum subsequence http://codeforces.com/problemset/problem/196/A?locale=en
+- [X] 41) Lexicographically maximum subsequence http://codeforces.com/problemset/problem/196/A?locale=en
 - [ ] 42) Woodcutters http://codeforces.com/contest/545/problem/C?locale=en
 - [ ] 43) Queue http://codeforces.com/problemset/problem/141/C?locale=en
 - [X] 44) Longest common subsequence https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
