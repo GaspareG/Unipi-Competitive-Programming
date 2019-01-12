@@ -5,9 +5,9 @@ Problems:
 - [X] 01) Leaders in array http://practice.geeksforgeeks.org/problems/leaders-in-an-array/0
 - [X] 02) Kadane's algorithm http://practice.geeksforgeeks.org/problems/kadanes-algorithm/0
 - [X] 03) Missing number in array http://practice.geeksforgeeks.org/problems/missing-number-in-array/0
-- [ ] 04) Trapping rain water http://practice.geeksforgeeks.org/problems/trapping-rain-water/0
+- [X] 04) Trapping rain water http://practice.geeksforgeeks.org/problems/trapping-rain-water/0
 - [X] 05) Sliding window maximum http://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0
-- [ ] 06) Next larger element http://practice.geeksforgeeks.org/problems/next-larger-element/0
+- [X] 06) Next larger element http://practice.geeksforgeeks.org/problems/next-larger-element/0
 - [ ] 07) Towers http://codeforces.com/problemset/problem/37/A?locale=en
 - [ ] 08) Finding Team Member http://codeforces.com/problemset/problem/579/B?locale=en
 - [X] 09) Inversion count http://www.spoj.com/problems/INVCNT/
