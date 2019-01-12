@@ -31,7 +31,7 @@ Problems:
 - [ ] 27) Tree and queries http://codeforces.com/contest/375/problem/D
 - [ ] 28) Array copy https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text23012018.pdf
 - [X] 29) Triplets https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text14022018.pdf
-- [ ] 30) X total shapes http://practice.geeksforgeeks.org/problems/x-total-shapes/0
+- [X] 30) X total shapes http://practice.geeksforgeeks.org/problems/x-total-shapes/0
 - [ ] 31) IsBipartite http://practice.geeksforgeeks.org/problems/bipartite-graph/1
 - [ ] 32) Fox and names http://codeforces.com/problemset/problem/510/C?locale=en
 - [ ] 33) Learning languages http://codeforces.com/problemset/problem/277/A?locale=en
