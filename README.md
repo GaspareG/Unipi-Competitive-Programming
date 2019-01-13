@@ -20,7 +20,7 @@ Problems:
 - [X] 16) Alice, Bob and chocolate http://codeforces.com/problemset/problem/6/C?locale=en
 - [X] 17) Number of ways http://codeforces.com/problemset/problem/466/C?locale=en
 - [ ] 18) Little girl and maximum sum http://codeforces.com/problemset/problem/276/C?locale=en
-- [ ] 19) Update the array http://www.spoj.com/problems/UPDATEIT/
+- [X] 19) Update the array http://www.spoj.com/problems/UPDATEIT/
 - [ ] 20) Megacity http://codeforces.com/problemset/problem/424/B?locale=en
 - [X] 21) Find pair http://codeforces.com/problemset/problem/160/C?locale=en
 - [ ] 22) Two heaps http://codeforces.com/problemset/problem/353/B?locale=en
