@@ -19,7 +19,7 @@ Problems:
 - [ ] 15) Ilya and Queries http://codeforces.com/problemset/problem/313/B?locale=en
 - [X] 16) Alice, Bob and chocolate http://codeforces.com/problemset/problem/6/C?locale=en
 - [X] 17) Number of ways http://codeforces.com/problemset/problem/466/C?locale=en
-- [ ] 18) Little girl and maximum sum http://codeforces.com/problemset/problem/276/C?locale=en
+- [X] 18) Little girl and maximum sum http://codeforces.com/problemset/problem/276/C?locale=en
 - [X] 19) Update the array http://www.spoj.com/problems/UPDATEIT/
 - [X] 20) Megacity http://codeforces.com/problemset/problem/424/B?locale=en
 - [X] 21) Find pair http://codeforces.com/problemset/problem/160/C?locale=en
