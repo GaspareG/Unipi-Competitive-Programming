@@ -43,8 +43,8 @@ Problems:
 - [ ] 39) Wilbur and array http://codeforces.com/problemset/problem/596/B?locale=en
 - [ ] 40) Alternative thinking http://codeforces.com/problemset/problem/603/A?locale=en
 - [X] 41) Lexicographically maximum subsequence http://codeforces.com/problemset/problem/196/A?locale=en
-- [ ] 42) Woodcutters http://codeforces.com/contest/545/problem/C?locale=en
-- [ ] 43) Queue http://codeforces.com/problemset/problem/141/C?locale=en
+- [X] 42) Woodcutters http://codeforces.com/contest/545/problem/C?locale=en
+- [X] 43) Queue http://codeforces.com/problemset/problem/141/C?locale=en
 - [X] 44) Longest common subsequence https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
 - [X] 45) 0-1 knapsack http://www.practice.geeksforgeeks.org/problem-page.php?pid=909
 - [X] 46) Longest increasing subsequence https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0

@@ -1,6 +1,6 @@
 /*
   Author: Gaspare Ferraro <ferraro@gaspa.re>
-  Problem: <url>
+  Problem: <https://www.codechef.com/problems/TASHIFT>
 
   Solution description:
 
