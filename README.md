@@ -38,7 +38,7 @@ Problems:
 - [ ] 34) Checkposts http://codeforces.com/problemset/problem/427/C?locale=en
 - [ ] 35) Xenia and Tree (optional problem) http://codeforces.com/problemset/problem/342/E?locale=en
 - [X] 36) Minimum spanning tree http://www.spoj.com/problems/MST/
-- [ ] 37) N meetings in one room http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0
+- [X] 37) N meetings in one room http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0
 - [ ] 38) Magic numbers http://codeforces.com/problemset/problem/320/A?locale=en
 - [X] 39) Wilbur and array http://codeforces.com/problemset/problem/596/B?locale=en
 - [X] 40) Alternative thinking http://codeforces.com/problemset/problem/603/A?locale=en
