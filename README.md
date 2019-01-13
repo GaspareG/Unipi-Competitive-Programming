@@ -39,7 +39,7 @@ Problems:
 - [ ] 35) Xenia and Tree (optional problem) http://codeforces.com/problemset/problem/342/E?locale=en
 - [X] 36) Minimum spanning tree http://www.spoj.com/problems/MST/
 - [X] 37) N meetings in one room http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0
-- [ ] 38) Magic numbers http://codeforces.com/problemset/problem/320/A?locale=en
+- [X] 38) Magic numbers http://codeforces.com/problemset/problem/320/A?locale=en
 - [X] 39) Wilbur and array http://codeforces.com/problemset/problem/596/B?locale=en
 - [X] 40) Alternative thinking http://codeforces.com/problemset/problem/603/A?locale=en
 - [X] 41) Lexicographically maximum subsequence http://codeforces.com/problemset/problem/196/A?locale=en
