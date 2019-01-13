@@ -55,4 +55,4 @@ Problems:
 - [X] 51) Vertex cover http://www.spoj.com/problems/PT07X/
 - [X] 52) Longest palindromic subsequence https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence/0
 - [X] 53) Longest prefix suffix https://practice.geeksforgeeks.org/problems/longest-prefix-suffix/0
-- [ ] 54) Shift the string https://www.codechef.com/problems/TASHIFT
+- [X] 54) Shift the string https://www.codechef.com/problems/TASHIFT
