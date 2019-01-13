@@ -21,7 +21,7 @@ Problems:
 - [X] 17) Number of ways http://codeforces.com/problemset/problem/466/C?locale=en
 - [ ] 18) Little girl and maximum sum http://codeforces.com/problemset/problem/276/C?locale=en
 - [X] 19) Update the array http://www.spoj.com/problems/UPDATEIT/
-- [ ] 20) Megacity http://codeforces.com/problemset/problem/424/B?locale=en
+- [X] 20) Megacity http://codeforces.com/problemset/problem/424/B?locale=en
 - [X] 21) Find pair http://codeforces.com/problemset/problem/160/C?locale=en
 - [ ] 22) Two heaps http://codeforces.com/problemset/problem/353/B?locale=en
 - [ ] 23) Circular RMQ http://codeforces.com/problemset/problem/52/C
@@ -40,7 +40,7 @@ Problems:
 - [X] 36) Minimum spanning tree http://www.spoj.com/problems/MST/
 - [ ] 37) N meetings in one room http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0
 - [ ] 38) Magic numbers http://codeforces.com/problemset/problem/320/A?locale=en
-- [ ] 39) Wilbur and array http://codeforces.com/problemset/problem/596/B?locale=en
+- [X] 39) Wilbur and array http://codeforces.com/problemset/problem/596/B?locale=en
 - [ ] 40) Alternative thinking http://codeforces.com/problemset/problem/603/A?locale=en
 - [X] 41) Lexicographically maximum subsequence http://codeforces.com/problemset/problem/196/A?locale=en
 - [X] 42) Woodcutters http://codeforces.com/contest/545/problem/C?locale=en
