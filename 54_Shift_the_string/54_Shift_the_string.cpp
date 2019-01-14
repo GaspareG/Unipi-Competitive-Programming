@@ -48,40 +48,22 @@ int main()
   std::string S = A + "$" + B + B;
   std::vector<int> lps(S.size(), 0);
 
-  int len = 0;
+  size_t len = 0;
   size_t i = 1;
 
   while (i<S.size())
   {
-    if (S[i] == S[len])
-    {
-      len++;
-      lps[i] = len;
-      i++;
-    }
-    else
-    {
-      if (len != 0)
-      {
-        len = lps[len-1];
-      }
-      else
-      {
-        lps[i] = 0;
-        i++;
-      }
-    }
+    if (S[i] == S[len]) lps[i++] = ++len;
+    else if (len != 0) len = lps[len-1];
+    else lps[i++] = 0;
   }
 
   int sol = N;
   for(size_t k=N; k<S.size(); k++)
-  {
     if(lps[k] > lps[sol])
       sol = k;
-  }
 
-  sol = sol-lps[sol] - N;
-
+  sol = sol-lps[sol]-N;
   std::cout << sol << std::endl;
 
   return 0;
