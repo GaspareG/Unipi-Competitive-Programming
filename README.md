@@ -16,7 +16,7 @@ Problems:
 | ✅ | 10 | [Largest Even Number](http://practice.geeksforgeeks.org/problems/largest-even-number/0) | [10_Largest_Even_Number.cpp](10_Largest_Even_Number/10_Largest_Even_Number.cpp) |
 | ✅ | 11 | [Firing employees](http://practice.geeksforgeeks.org/problems/firing-employees/0) | [11_Firing_employees.cpp](11_Firing_employees/11_Firing_employees.cpp) |
 | ✅ | 12 | [Check for BST](http://practice.geeksforgeeks.org/problems/check-for-bst/1) | [12_Check_for_BST.cpp](12_Check_for_BST/12_Check_for_BST.cpp) |
-| ❌ | 13 | [Preorder traversal and BST](http://practice.geeksforgeeks.org/problems/preorder-traversal-and-bst/0) | [13_Preorder_traversal_and_BST.cpp](13_Preorder_traversal_and_BST/13_Preorder_traversal_and_BST.cpp) |
+| ✅ | 13 | [Preorder traversal and BST](http://practice.geeksforgeeks.org/problems/preorder-traversal-and-bst/0) | [13_Preorder_traversal_and_BST.cpp](13_Preorder_traversal_and_BST/13_Preorder_traversal_and_BST.cpp) |
 | ❌ | 14 | [Maximum path sum](http://practice.geeksforgeeks.org/problems/maximum-path-sum/1) | [14_Maximum_path_sum.cpp](14_Maximum_path_sum/14_Maximum_path_sum.cpp) |
 | ❌ | 15 | [Ilya and Queries](http://codeforces.com/problemset/problem/313/B?locale=en) | [15_Ilya_and_Queries.cpp](15_Ilya_and_Queries/15_Ilya_and_Queries.cpp) |
 | ✅ | 16 | [Alice, Bob and chocolate](http://codeforces.com/problemset/problem/6/C?locale=en) | [16_Alice,_Bob_and_chocolate.cpp](16_Alice,_Bob_and_chocolate/16_Alice,_Bob_and_chocolate.cpp) |
