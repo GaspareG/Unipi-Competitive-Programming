@@ -25,7 +25,7 @@ Problems:
 | ✅ | 19 | [Update the array](http://www.spoj.com/problems/UPDATEIT/) | [19_Update_the_array.cpp](19_Update_the_array/19_Update_the_array.cpp) |
 | ✅ | 20 | [Megacity](http://codeforces.com/problemset/problem/424/B?locale=en) | [20_Megacity.cpp](20_Megacity/20_Megacity.cpp) |
 | ✅ | 21 | [Find pair](http://codeforces.com/problemset/problem/160/C?locale=en) | [21_Find_pair.cpp](21_Find_pair/21_Find_pair.cpp) |
-| ❌ | 22 | [Two heaps](http://codeforces.com/problemset/problem/353/B?locale=en) | [22_Two_heaps.cpp](22_Two_heaps/22_Two_heaps.cpp) |
+| ✅ | 22 | [Two heaps](http://codeforces.com/problemset/problem/353/B?locale=en) | [22_Two_heaps.cpp](22_Two_heaps/22_Two_heaps.cpp) |
 | ❌ | 23 | [Circular RMQ](http://codeforces.com/problemset/problem/52/C) | [23_Circular_RMQ.cpp](23_Circular_RMQ/23_Circular_RMQ.cpp) |
 | ❌ | 24 | [Nested segments](http://codeforces.com/problemset/problem/652/D?locale=en) | [24_Nested_segments.cpp](24_Nested_segments/24_Nested_segments.cpp) |
 | ❌ | 25 | [Pashmak and Parmida's problem](http://codeforces.com/problemset/problem/459/D?locale=en) | [25_Pashmak_and_Parmidas_problem.cpp](25_Pashmak_and_Parmidas_problem/25_Pashmak_and_Parmidas_problem.cpp) |
