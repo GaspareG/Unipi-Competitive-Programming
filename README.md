@@ -28,7 +28,7 @@ Problems:
 | ✅ | 22 | [Two heaps](http://codeforces.com/problemset/problem/353/B?locale=en) | [22_Two_heaps.cpp](22_Two_heaps/22_Two_heaps.cpp) |
 | ✅ | 23 | [Circular RMQ](http://codeforces.com/problemset/problem/52/C) | [23_Circular_RMQ.cpp](23_Circular_RMQ/23_Circular_RMQ.cpp) |
 | ✅ | 24 | [Nested segments](http://codeforces.com/problemset/problem/652/D?locale=en) | [24_Nested_segments.cpp](24_Nested_segments/24_Nested_segments.cpp) |
-| ❌ | 25 | [Pashmak and Parmida's problem](http://codeforces.com/problemset/problem/459/D?locale=en) | [25_Pashmak_and_Parmidas_problem.cpp](25_Pashmak_and_Parmidas_problem/25_Pashmak_and_Parmidas_problem.cpp) |
+| ✅ | 25 | [Pashmak and Parmida's problem](http://codeforces.com/problemset/problem/459/D?locale=en) | [25_Pashmak_and_Parmidas_problem.cpp](25_Pashmak_and_Parmidas_problem/25_Pashmak_and_Parmidas_problem.cpp) |
 | ❌ | 26 | [Powerful array](http://codeforces.com/contest/86/problem/D) | [26_Powerful_array.cpp](26_Powerful_array/26_Powerful_array.cpp) |
 | ❌ | 27 | [Tree and queries](http://codeforces.com/contest/375/problem/D) | [27_Tree_and_queries.cpp](27_Tree_and_queries/27_Tree_and_queries.cpp) |
 | ❌ | 28 | [Array copy](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text23012018.pdf) | [28_Array_copy.cpp](28_Array_copy/28_Array_copy.cpp) |
