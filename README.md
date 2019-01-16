@@ -17,8 +17,8 @@ Problems:
 | ✅ | 11 | [Firing employees](http://practice.geeksforgeeks.org/problems/firing-employees/0) | [11_Firing_employees.cpp](11_Firing_employees/11_Firing_employees.cpp) |
 | ✅ | 12 | [Check for BST](http://practice.geeksforgeeks.org/problems/check-for-bst/1) | [12_Check_for_BST.cpp](12_Check_for_BST/12_Check_for_BST.cpp) |
 | ✅ | 13 | [Preorder traversal and BST](http://practice.geeksforgeeks.org/problems/preorder-traversal-and-bst/0) | [13_Preorder_traversal_and_BST.cpp](13_Preorder_traversal_and_BST/13_Preorder_traversal_and_BST.cpp) |
-| ❌ | 14 | [Maximum path sum](http://practice.geeksforgeeks.org/problems/maximum-path-sum/1) | [14_Maximum_path_sum.cpp](14_Maximum_path_sum/14_Maximum_path_sum.cpp) |
-| ❌ | 15 | [Ilya and Queries](http://codeforces.com/problemset/problem/313/B?locale=en) | [15_Ilya_and_Queries.cpp](15_Ilya_and_Queries/15_Ilya_and_Queries.cpp) |
+| ✅ | 14 | [Maximum path sum](http://practice.geeksforgeeks.org/problems/maximum-path-sum/1) | [14_Maximum_path_sum.cpp](14_Maximum_path_sum/14_Maximum_path_sum.cpp) |
+| ✅ | 15 | [Ilya and Queries](http://codeforces.com/problemset/problem/313/B?locale=en) | [15_Ilya_and_Queries.cpp](15_Ilya_and_Queries/15_Ilya_and_Queries.cpp) |
 | ✅ | 16 | [Alice, Bob and chocolate](http://codeforces.com/problemset/problem/6/C?locale=en) | [16_Alice,_Bob_and_chocolate.cpp](16_Alice,_Bob_and_chocolate/16_Alice,_Bob_and_chocolate.cpp) |
 | ✅ | 17 | [Number of ways](http://codeforces.com/problemset/problem/466/C?locale=en) | [17_Number_of_ways.cpp](17_Number_of_ways/17_Number_of_ways.cpp) |
 | ✅ | 18 | [Little girl and maximum sum](http://codeforces.com/problemset/problem/276/C?locale=en) | [18_Little_girl_and_maximum_sum.cpp](18_Little_girl_and_maximum_sum/18_Little_girl_and_maximum_sum.cpp) |
