@@ -31,7 +31,7 @@ Problems:
 | ✅ | 25 | [Pashmak and Parmida's problem](http://codeforces.com/problemset/problem/459/D?locale=en) | [25_Pashmak_and_Parmidas_problem.cpp](25_Pashmak_and_Parmidas_problem/25_Pashmak_and_Parmidas_problem.cpp) |
 | ❌ | 26 | [Powerful array](http://codeforces.com/contest/86/problem/D) | [26_Powerful_array.cpp](26_Powerful_array/26_Powerful_array.cpp) |
 | ❌ | 27 | [Tree and queries](http://codeforces.com/contest/375/problem/D) | [27_Tree_and_queries.cpp](27_Tree_and_queries/27_Tree_and_queries.cpp) |
-| ❌ | 28 | [Array copy](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text23012018.pdf) | [28_Array_copy.cpp](28_Array_copy/28_Array_copy.cpp) |
+| ✅ | 28 | [Array copy](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text23012018.pdf) | [28_Array_copy.cpp](28_Array_copy/28_Array_copy.cpp) |
 | ✅ | 29 | [Triplets](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text14022018.pdf) | [29_Triplets.cpp](29_Triplets/29_Triplets.cpp) |
 | ✅ | 30 | [X total shapes](http://practice.geeksforgeeks.org/problems/x-total-shapes/0) | [30_X_total_shapes.cpp](30_X_total_shapes/30_X_total_shapes.cpp) |
 | ✅ | 31 | [IsBipartite](http://practice.geeksforgeeks.org/problems/bipartite-graph/1) | [31_IsBipartite.cpp](31_IsBipartite/31_IsBipartite.cpp) |
