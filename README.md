@@ -68,5 +68,5 @@ Exams
 |  ✅  | 23/01/2018 | [Array copy](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text23012018.pdf)          | [28_Array_copy.cpp](28_Array_copy/28_Array_copy.cpp) |
 |  ✅  | 14/02/2018 | [Triplets](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text14022018.pdf)            | [29_Triplets.cpp](29_Triplets/29_Triplets.cpp)       |
 |  ✅  | 12/06/2018 | [Increasing subarray](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text12062018.pdf) | [55_increasing_subarray.cpp](55_increasing_subarray/55_increasing_subarray.cpp)     |
-|  ❌  | 06/07/2018 | [A grid and domino](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text06072018.pdf)   | []()     |
+|  ✅  | 06/07/2018 | [A grid and domino](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text06072018.pdf)   | [56_a_grid_and_a_domino.cpp](56_a_grid_and_a_domino/56_a_grid_and_a_domino.cpp)     |
 |  ❌  | 14/01/2018 | [Smaller value](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text14012019.pdf)       | []()     |
