@@ -1,6 +1,7 @@
 # cpc-exam
 
-Problems:
+Problems
+---------------
 
 | Done | Number | Problem | Solution |
 |:----:|:------:| ------- | -------- |
@@ -58,3 +59,14 @@ Problems:
 | ✅ | 52 | [Longest palindromic subsequence](https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence/0) | [52_Longest_palindromic_subsequence.cpp](52_Longest_palindromic_subsequence/52_Longest_palindromic_subsequence.cpp) |
 | ✅ | 53 | [Longest prefix suffix](https://practice.geeksforgeeks.org/problems/longest-prefix-suffix/0) | [53_Longest_prefix_suffix.cpp](53_Longest_prefix_suffix/53_Longest_prefix_suffix.cpp) |
 | ✅ | 54 | [Shift the string](https://www.codechef.com/problems/TASHIFT) | [54_Shift_the_string.cpp](54_Shift_the_string/54_Shift_the_string.cpp) |
+
+
+Exams
+---------------
+| Done | Date       | Problem                                                                                                              | Solution |
+|:----:|:----------:| -------------------------------------------------------------------------------------------------------------------- | -------- |
+|  ❌  | 23/01/2018 | [Array copy](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text23012018.pdf)          | []()     |
+|  ❌  | 14/02/2018 | [Triplets](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text14022018.pdf)            | []()     |
+|  ❌  | 12/06/2018 | [Increasing subarray](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text12062018.pdf) | []()     |
+|  ❌  | 06/07/2018 | [A grid and domino](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text06072018.pdf)   | []()     |
+|  ❌  | 14/01/2018 | [Smaller value](https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text14012019.pdf)       | []()     |
