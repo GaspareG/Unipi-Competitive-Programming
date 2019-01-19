@@ -52,8 +52,7 @@ void vertexCover(int node, int parent)
   for(int next : T[node])
   {
     // If parent, skip to avoid loop
-    if(next == parent)
-      continue;
+    if(next == parent) continue;
 
     // Recursive call on child
     vertexCover(next, node);
@@ -85,8 +84,7 @@ int main()
   for(int i=0; i<N-1; i++)
   {
     std::cin >> u >> v;
-    u--;
-    v--;
+    u--; v--;
     T[u].push_back(v);
     T[v].push_back(u);
   }

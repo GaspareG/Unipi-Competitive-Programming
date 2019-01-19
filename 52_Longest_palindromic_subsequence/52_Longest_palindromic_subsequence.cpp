@@ -47,14 +47,10 @@ int lps(int i, int j)
 {
   if(DP[i][j] == -1)
   {
-    if(i > j)
-      DP[i][j] = 0;
-    else if(i == j)
-      DP[i][j] = 1;
-    else if(S[i] == S[j])
-      DP[i][j] = 2 + lps(i+1, j-1);
-    else
-      DP[i][j] = std::max(lps(i+1, j), lps(i, j-1));
+    if(i > j)             DP[i][j] = 0;
+    else if(i == j)       DP[i][j] = 1;
+    else if(S[i] == S[j]) DP[i][j] = 2 + lps(i+1, j-1);
+    else                  DP[i][j] = std::max(lps(i+1, j), lps(i, j-1));
   }
   return DP[i][j];
 }

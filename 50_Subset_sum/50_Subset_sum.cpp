@@ -51,38 +51,30 @@
 
 void solve()
 {
-  int N;
+  int N, sum=0;
 
   std::cin >> N;
-  std::vector<int> V(N);
+  std::vector<int> V(N+1, 0);
 
-  for(int i=0; i<N; i++) std::cin >> V[i];
-  int sum = 0;
+  for(int i=1; i<=N; i++) std::cin >> V[i];
   for(int i : V) sum += i;
 
-  bool can = true;
+  bool can = (sum%2) != 1;
 
-  if(sum % 2 == 1)
-  {
-    can = false;
-  }
-  else
+  if(can)
   {
     sum /= 2;
     std::vector<std::vector<bool>> M(N+1, std::vector<bool>(sum+1, false));
 
-    for(int i=0; i<=N; i++)
+    for(int i=0; i<=N;   i++) M[i][0] = true;
+    for(int i=0; i<=sum; i++) M[0][i] = false;
+
+    for(int i=1; i<=N; i++)
     {
-      for(int j=0; j<=sum; j++)
+      for(int j=1; j<=sum; j++)
       {
-        if(j == 0)
-          M[i][j] = true;
-        else if(i == 0)
-          M[i][j] = false;
-        else if(j - V[i-1] >= 0)
-          M[i][j] = M[i-1][j] || M[i-1][j-V[i-1]];
-        else
-          M[i][j] = M[i-1][j];
+        if(j >= V[i]) M[i][j] = M[i-1][j] || M[i-1][j-V[i]];
+        else          M[i][j] = M[i-1][j];
       }
     }
     can = M[N][sum];
