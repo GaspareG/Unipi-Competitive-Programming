@@ -1,14 +1,17 @@
 /*
   Author: Gaspare Ferraro <ferraro@gaspa.re>
-  Problem: <url>
+  Problem: <https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Exams/Text14012019.pdf>
 
   Solution description:
 
+    Naive simulation
 
-  Time  complexity: O()
-  Space complexity: O()
+  Time  complexity: O(N*M)
+  Space complexity: O(N)
 
   Where:
+  - N is the size of the input vector
+  - M is the number of queries
 
 */
 

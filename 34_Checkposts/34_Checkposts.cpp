@@ -1,6 +1,6 @@
 /*
   Author: Gaspare Ferraro <ferraro@gaspa.re>
-  Problem: <url>
+  Problem: <https://codeforces.com/problemset/problem/427/C?locale=en>
 
   Solution description:
 

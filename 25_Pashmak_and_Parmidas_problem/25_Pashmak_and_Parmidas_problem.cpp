@@ -4,7 +4,8 @@
 
   Solution description:
 
-    We first compress the array, then we use a fenwick tree TODO
+    We first compress the array, then we use a fenwick tree to speed-up
+    the count of pairs
 
   Time  complexity: O(N*log(N))
   Space complexity: O(N)

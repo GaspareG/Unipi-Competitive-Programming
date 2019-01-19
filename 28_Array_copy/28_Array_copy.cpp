@@ -12,7 +12,7 @@
 
   The internal nodes don't exists, the tree contains only the information regarding to the lazy update.
 
-  Time  complexity: O()
+  Time  complexity: O(N+Q*log(N))
   Space complexity: O(N)
 
   Where:

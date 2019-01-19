@@ -64,7 +64,7 @@ void solve()
   if(can)
   {
     sum /= 2;
-    std::vector<std::vector<bool>> M(N+1, std::vector<bool>(sum+1, false));
+    std::vector<std::vector<int>> M(N+1, std::vector<int>(sum+1, false));
 
     for(int i=0; i<=N;   i++) M[i][0] = true;
     for(int i=0; i<=sum; i++) M[0][i] = false;

@@ -4,15 +4,7 @@
 
   Solution description:
 
-  Dynamic programming,
-
-  matrix DP[N+1][W+1] where:
-
-  - DP[0][i] = 0 (no objects left)
-  - DP[i][0] = 0 (full bag)
-
-  DP[i][j] = DP[i-1][j] if weight(object[i]) > j
-  DP[i][j] = max(DP[i-1][j], value(object[i]) + DP[i-1][j-weight(object[i])) otherwhise
+    Standard dynamic programming,
 
   Time  complexity: O(T*N*W)
   Space complexity: O(N*W)
@@ -47,37 +39,22 @@ void solve()
   int N, W;
   std::cin >> N >> W;
 
-  std::vector<std::tuple<int,int>> O(N); // <value, weight>
+  std::vector<std::array<int, 2>> O(N); // <value, weight>
 
-  // Read values
-  for(int i=0; i<N; i++) std::cin >> std::get<0>(O[i]);
-
-  // Read weights
-  for(int i=0; i<N; i++) std::cin >> std::get<1>(O[i]);
+  // Read values and weights
+  for(int i=0; i<N; i++) std::cin >> O[i][0];
+  for(int i=0; i<N; i++) std::cin >> O[i][1];
 
   // DP table
-  std::vector<std::vector<int>> DP(N+1, std::vector<int>(W+1, 0));
+  std::vector<int> DP(W+1, 0);
 
   // Build table
-  for(int i=0; i<=N; i++)
-  {
-    for(int j=0; j<=W; j++)
-    {
-      // No space or no object
-      if(i == 0 || j == 0)
-        continue;
-      // Can take the object
-      else if(std::get<1>(O[i-1]) <= j)
-        // I can decide to take or don't
-        DP[i][j] = std::max(DP[i-1][j],DP[i-1][j-std::get<1>(O[i-1])]+std::get<0>(O[i-1]));
-      // Can't take the object
-      else
-        DP[i][j] = DP[i-1][j];
-    }
-  }
+  for(int i=0; i<N; i++)
+    for(int j=W-O[i][1]; j>=0; j--)
+        DP[j+O[i][1]] = std::max(DP[j+O[i][1]], DP[j]+O[i][0]);
 
   // Print the result
-  std::cout << DP[N][W] << std::endl;
+  std::cout << *std::max_element(DP.begin(), DP.end()) << std::endl;
 
 }
 
@@ -91,3 +68,4 @@ int main()
 
   return 0;
 }
+
