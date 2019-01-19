@@ -58,15 +58,15 @@ int main()
   std::cin >> N >> M;
 
   // Allocate memory
-  C.resize(N+1);
-  T.resize(N+1);
-  Q.resize(M);
-  sol.resize(M+1, 0);
-  freq.resize(1e5+1, 0);
-  freqK.resize(1e5+1, 0);
-  dfsIn.resize(N+1, 0);
+       C.resize(N+1);
+       T.resize(N+1);
+       Q.resize(M);
+     sol.resize(M+1, 0);
+    freq.resize(1e5+1, 0);
+   freqK.resize(1e5+1, 0);
+   dfsIn.resize(N+1, 0);
   dfsOut.resize(N+1, 0);
-  lin.resize(N+1, 0);
+     lin.resize(N+1, 0);
 
   // Read input
   for(int i=0; i<N; i++) std::cin >> C[i];

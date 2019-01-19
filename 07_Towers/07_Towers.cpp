@@ -35,12 +35,12 @@ int main()
 {
   std::ios_base::sync_with_stdio(false);
 
-  int N, m = 0, c = 0;
+  int N, m=0, c=0, x=0;
   std::cin >> N;
   std::vector<int> V(1001, 0);
+
   for(int i=0; i<N; i++)
   {
-    int x;
     std::cin >> x;
     V[x]++;
     if(V[x] == 1) c++;

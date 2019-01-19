@@ -42,7 +42,6 @@ void solve()
 {
   int N, tmp;
   std::cin >> N;
-
   int sol=N;
 
   for(int i=1; i <= N-1; i++)

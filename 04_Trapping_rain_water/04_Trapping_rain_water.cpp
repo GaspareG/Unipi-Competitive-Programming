@@ -55,14 +55,12 @@ void solve()
     if(V[left] <= V[right])
     {
       height = std::max(height, V[left]);
-      sol += height - V[left];
-      left++;
+      sol += height - V[left++];
     }
     else
     {
       height = std::max(height, V[right]);
-      sol += height - V[right];
-      right--;
+      sol += height - V[right--];
     }
   }
 

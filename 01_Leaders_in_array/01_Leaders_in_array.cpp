@@ -49,20 +49,13 @@ void solve()
 
   for(auto i=N-1; i>=0; i--)
   {
-    if(V[i] >= max_right)
-    {
-      sol.push_back(V[i]);
-    }
+    if(V[i] >= max_right) sol.push_back(V[i]);
     max_right = std::max(max_right, V[i]);
   }
 
   if(sol.size() > 0)
-  {
-    for(int i(sol.size()-1); i>=0; i--)
-    {
-      std::cout << sol[i] << (i>0?" ":"");
-    }
-  }
+    for(int i(sol.size()-1); i>=0; i--) std::cout << sol[i] << (i>0?" ":"");
+
   std::cout << std::endl;
 }
 
