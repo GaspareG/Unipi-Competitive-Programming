@@ -38,9 +38,9 @@ int main()
 
   long long int N, K, x;
 
-
   std::cin >> N >> K;
   std::map<long long int, long long int> freq;
+
   for(auto i=0; i<N; i++)
   {
     std::cin >> x;
@@ -50,7 +50,7 @@ int main()
   K--; // 1-based to 0-based
 
   // Find first number
-  for (auto [k, v] : freq)
+  for(auto [k, v] : freq)
   {
     if (K < v*N)
     {
@@ -62,7 +62,7 @@ int main()
   }
 
   // Find second number
-  for (auto [k, v] : freq)
+  for(auto [k, v] : freq)
   {
     if (K < v*N)
     {
