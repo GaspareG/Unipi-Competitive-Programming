@@ -6,7 +6,9 @@
 
     Just an implementation of mo's algorithm with bucket size of 512
 
-  Time  complexity: O()
+    (Executime time very near to ~5sec, if TLE submit again :P)
+
+  Time  complexity: O(N*log(N) + (N+Q)*sqrt(N))
   Space complexity: O(N+Q+max|V[i]|)
 
   Where:
@@ -47,8 +49,6 @@ int main()
   for(int i=0; i<N; i++) std::cin >> V[i];
   for(int i=0; i<T; i++) std::cin >> Q[i][0] >> Q[i][1];
   for(int i=0; i<T; i++) Q[i][0]--, Q[i][2] = i;
-
-  // sqrt(N)
 
   // Sort queries
   std::sort(Q.begin(), Q.end(), [&](const std::array<int, 3> X, const std::array<int, 3> Y)
