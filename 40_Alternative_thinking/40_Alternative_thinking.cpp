@@ -37,8 +37,7 @@ int main()
 
   int N, sol=1;
   std::string S;
-  std::cin >> N;
-  std::cin >> S;
+  std::cin >> N >> S;
   for(int i=0; i<N-1; i++) sol += (S[i] != S[i+1]);
   std::cout << std::min(N, sol+2);
 

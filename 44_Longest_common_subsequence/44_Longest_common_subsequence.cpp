@@ -60,18 +60,9 @@ void solve()
   {
     for(int j=0; j<=l2; j++)
     {
-      if(i == 0 || j == 0)
-      {
-        continue;
-      }
-      else if(s1[i-1] == s2[j-1])
-      {
-        M[i][j] = M[i-1][j-1]+1;
-      }
-      else
-      {
-        M[i][j] = std::max(M[i-1][j], M[i][j-1]);
-      }
+      if(i == 0 || j == 0)        continue;
+      else if(s1[i-1] == s2[j-1]) M[i][j] = M[i-1][j-1]+1;
+      else                        M[i][j] = std::max(M[i-1][j], M[i][j-1]);
     }
   }
 

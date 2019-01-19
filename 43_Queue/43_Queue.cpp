@@ -45,24 +45,19 @@ int main()
   std::sort(C.begin(), C.end());
 
   bool check = true;
-  for(int i=0; i<N; i++)
-    if(C[i].first > i) check = false;
+  for(int i=0; i<N; i++) if(C[i].first > i) check = false;
 
   if(check)
   {
-    for(int i=0; i<N; i++)
-      H.insert(H.begin()+i-C[i].first, i);
-
-    for(int i=0; i<N; i++)
-      C[H[i]].first = i+1;
-
-    for(int i=0; i<N; i++)
-      std::cout << C[i].second << " " << C[i].first << std::endl;
+    for(int i=0; i<N; i++) H.insert(H.begin()+i-C[i].first, i);
+    for(int i=0; i<N; i++) C[H[i]].first = i+1;
+    for(int i=0; i<N; i++) std::cout << C[i].second << " " << C[i].first << std::endl;
   }
   else
   {
     std::cout << -1 << std::endl;
   }
+
   return 0;
 }
 

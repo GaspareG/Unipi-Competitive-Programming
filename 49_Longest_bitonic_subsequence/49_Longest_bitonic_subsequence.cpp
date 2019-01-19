@@ -67,9 +67,7 @@ void solve()
 
   // Find Max LBS
   int sol = 0;
-  for(int i=0; i<N; i++)
-    sol = std::max(sol, LIS[i]+LDS[i]-1);
-
+  for(int i=0; i<N; i++) sol = std::max(sol, LIS[i]+LDS[i]-1);
   std::cout << sol << std::endl;
 }
 

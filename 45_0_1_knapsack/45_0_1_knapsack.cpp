@@ -50,12 +50,10 @@ void solve()
   std::vector<std::tuple<int,int>> O(N); // <value, weight>
 
   // Read values
-  for(int i=0; i<N; i++)
-    std::cin >> std::get<0>(O[i]);
+  for(int i=0; i<N; i++) std::cin >> std::get<0>(O[i]);
 
   // Read weights
-  for(int i=0; i<N; i++)
-    std::cin >> std::get<1>(O[i]);
+  for(int i=0; i<N; i++) std::cin >> std::get<1>(O[i]);
 
   // DP table
   std::vector<std::vector<int>> DP(N+1, std::vector<int>(W+1, 0));
@@ -70,15 +68,11 @@ void solve()
         continue;
       // Can take the object
       else if(std::get<1>(O[i-1]) <= j)
-      {
         // I can decide to take or don't
         DP[i][j] = std::max(DP[i-1][j],DP[i-1][j-std::get<1>(O[i-1])]+std::get<0>(O[i-1]));
-      }
       // Can't take the object
       else
-      {
         DP[i][j] = DP[i-1][j];
-      }
     }
   }
 

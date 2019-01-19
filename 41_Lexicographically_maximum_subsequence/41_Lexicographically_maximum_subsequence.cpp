@@ -44,14 +44,13 @@ int main()
 
   int right = 0;
   for(int i = 25; i>= 0; i--)
-  {
     for(int j : occ[i])
-    {
-      if(j < right) continue;
-      std::cout << static_cast<char>('a'+i);
-      right = j;
-    }
-  }
+      if(j >= right)
+      {
+        std::cout << static_cast<char>('a'+i);
+        right = j;
+      }
+
   std::cout << std::endl;
 
   return 0;
