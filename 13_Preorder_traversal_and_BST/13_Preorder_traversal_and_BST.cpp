@@ -41,22 +41,20 @@
 
 int check(const std::vector<int> &V, int l, int r)
 {
+  int i, j;
+
   if(l >= r) return 1;
 
   // Find first value i such that V[i] > V[root]
-  int i;
-  for(i=l+1; i<r; i++)
-    if(V[i] > V[l])
-      break;
+  for(i=l+1; i<r; i++) if(V[i] > V[l]) break;
 
   // Check left part
   if(!check(V, l+1, i)) return 0;
 
   // Check if right part is consistent
-  for(int j=i; j<r; j++)
-    if(V[l] >= V[j])
-      return 0;
+  for(j=i; j<r; j++) if(V[l] >= V[j]) return 0;
 
+  // Check right part
   return check(V, i, r);
 }
 

@@ -46,13 +46,11 @@ void solve()
     count[c-'0']++;
 
   // Take the smallest even (or odd) digit
-  int lastDigit = -1;
-  for(int i=0; i<10; i+=2)
-    lastDigit = (lastDigit == -1 && count[i] > 0) ? i : lastDigit;
-  for(int i=1; i<10; i+=2)
-    lastDigit = (lastDigit == -1 && count[i] > 0) ? i : lastDigit;
+  int ld = -1;  // Last digit
+  for(int i=0; i<10; i+=2) ld = (ld == -1 && count[i] > 0) ? i : ld;
+  for(int i=1; i<10; i+=2) ld = (ld == -1 && count[i] > 0) ? i : ld;
 
-  count[lastDigit]--;
+  count[ld]--;
 
   // Print digits in decreasing order
   for(int i=9; i>=0; i--)
@@ -65,7 +63,7 @@ void solve()
   }
 
   // Print last digit
-  std::cout << lastDigit << std::endl;
+  std::cout << ld << std::endl;
 }
 
 int main()

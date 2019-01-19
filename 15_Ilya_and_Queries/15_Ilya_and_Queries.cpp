@@ -36,17 +36,16 @@ int main()
 {
   std::ios_base::sync_with_stdio(false);
 
-  int N;
+  int N, l, r;
   std::string S;
-  std::cin >> S;
-  std::cin >> N;
+  std::cin >> S >> N;
   std::vector<int> sol(S.size()+1, 0);
 
   for(size_t i=1; i<=S.size(); i++) sol[i] = (S[i-1]==S[i-2]) ? 1 : 0;
   for(size_t i=2; i<=S.size(); i++) sol[i] += sol[i-1];
+
   for(int i=0; i<N; i++)
   {
-    int l, r;
     std::cin >> l >> r;
     std::cout << (sol[r]-sol[l]) << std::endl;
   }

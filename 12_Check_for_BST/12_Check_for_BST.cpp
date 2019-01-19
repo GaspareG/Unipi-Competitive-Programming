@@ -44,14 +44,12 @@ int main()
 {
   int t;
   struct Node *child;
-  scanf("%d
-", &t);
+  scanf("%d", &t);
   while (t--)
   {
      map<int, Node*> m;
      int n;
-     scanf("%d
-",&n);
+     scanf("%d",&n);
      struct Node *root = NULL;
      while (n--)
      {
@@ -81,14 +79,15 @@ int main()
   return 0;
 }
 
-
+/****************************************************************************+*/
+/* CODE TO UPLOAD                                                             */
 bool isBST(Node*root, int lv, int rv)
 {
   if(root == NULL) return true;
 
   int data = root->data;
 
-  if(!(lv <= data && data <= rv)) return false;
+  if(lv > data || rv < data) return false;
 
   if(root->left != NULL)
   {
@@ -107,7 +106,5 @@ bool isBST(Node*root, int lv, int rv)
   return true;
 }
 
-bool isBST(Node* root)
-{
-  return  isBST(root, 1, 1000);
-}
+bool isBST(Node* root){ return  isBST(root, 1, 1000); }
+/****************************************************************************+*/

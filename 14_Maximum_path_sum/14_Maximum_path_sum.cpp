@@ -79,18 +79,22 @@ int main(){
   }
 }
 
+/***********************************************************+*****************/
+/* Code to upload                                                            */
+
 int dfs(struct Node *root, int &sol)
 {
-    if(root == NULL) return 0;
-    int left = std::max(0, dfs(root->left, sol));
-    int right = std::max(0, dfs(root->right, sol));
-    sol = std::max(sol, left+right+(root->data));
-    return std::max(left+(root->data), right+(root->data));
+  if(root == NULL) return 0;
+  int left = std::max(0, dfs(root->left, sol));
+  int right = std::max(0, dfs(root->right, sol));
+  sol = std::max(sol, left+right+(root->data));
+  return std::max(left+(root->data), right+(root->data));
 }
 
 int maxPathSum(struct Node *root)
 {
-    int sol = 0;
-    dfs(root, sol);
-    return sol;
+  int sol = 0;
+  dfs(root, sol);
+  return sol;
 }
+/***********************************************************+*****************/

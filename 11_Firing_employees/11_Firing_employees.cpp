@@ -75,8 +75,7 @@ void solve()
   dfs(T, rank, root, 0);
   rank[root] = -root;
 
-  for(int i=1; i<=N; i++)
-    sol += primes[i+rank[i]];
+  for(int i=1; i<=N; i++) sol += primes[i+rank[i]];
 
   std::cout << sol << std::endl;
 }

@@ -38,26 +38,16 @@ int main()
   int N;
   std::cin >> N;
   std::vector<int> V(N);
+
   for(int i=0; i<N; i++) std::cin >> V[i];
 
-  int lIdx = 0;
-  int rIdx = N-1;
-
-  int lTime = 0;
-  int rTime = 0;
+  int lIdx  = 0, rIdx  = N-1;
+  int lTime = 0, rTime = 0;
 
   while(lIdx <= rIdx)
   {
-    if(lTime <= rTime)
-    {
-      lTime += V[lIdx];
-      lIdx++;
-    }
-    else
-    {
-      rTime += V[rIdx];
-      rIdx--;
-    }
+    if(lTime <= rTime) lTime += V[lIdx++];
+    else               rTime += V[rIdx--];
   }
 
   std::cout << lIdx << " " << (N-lIdx) << std::endl;

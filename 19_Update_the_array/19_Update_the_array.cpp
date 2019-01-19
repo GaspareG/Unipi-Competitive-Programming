@@ -42,22 +42,16 @@ class fenwick
 
   public:
 
-    fenwick(int size) : N(size)
-    {
-      ft = std::vector<T>(N+1, 0);
-    }
+    fenwick(int size) : N(size){ ft = std::vector<T>(N+1, 0); }
 
     T query(int b)
     {
       T sum = 0;
-      for (; b; b -= (b&(-b))) sum += ft[b];
+      for(; b; b -= (b&(-b))) sum += ft[b];
       return sum;
     }
 
-    void update(int k, T v)
-    {
-      for (; k <= N; k += (k&(-k))) ft[k] += v;
-    }
+    void update(int k, T v){ for (; k <= N; k += (k&(-k))) ft[k] += v; }
 
     void update(int i, int j, T v)
     {

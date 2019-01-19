@@ -44,10 +44,7 @@ class fenwick
 
   public:
 
-    fenwick(int size) : N(size)
-    {
-      ft = std::vector<T>(N+1, 0);
-    }
+    fenwick(int size) : N(size){ ft = std::vector<T>(N+1, 0); }
 
     T query(int b)
     {
@@ -56,10 +53,7 @@ class fenwick
       return sum;
     }
 
-    void update(int k, T v)
-    {
-      for (; k <= N; k += (k&(-k))) ft[k] += v;
-    }
+    void update(int k, T v){ for (; k <= N; k += (k&(-k))) ft[k] += v; }
 
     void update(int i, int j, T v)
     {
@@ -72,7 +66,7 @@ int main()
 {
   std::ios_base::sync_with_stdio(false);
 
-  long long int N, Q, sol = 0;
+  long long int N, Q, l, r, sol = 0;
 
   std::cin >> N >> Q;
   std::vector<long long int> V(N+1, 0);
@@ -83,7 +77,6 @@ int main()
 
   for(int i=0; i<Q; i++)
   {
-    int l, r;
     std::cin >> l >> r;
     ft.update(l, r, 1);
   }
