@@ -48,36 +48,20 @@ struct unionFind
     std::iota(uf.begin(), uf.end(), 0);
   }
 
-  bool SameSet(int x, int y)
-  {
-    return Find(x) == Find(y);
-  }
+  // True if x and y are in the same set
+  bool SameSet(int x, int y){ return Find(x) == Find(y); }
 
   // find with path compression
-  int Find(int x)
-  {
-    return uf[x] == x ? x : uf[x] = Find(uf[x]);
-  }
+  int Find(int x){ return uf[x] == x ? x : uf[x] = Find(uf[x]); }
 
   // union with union by rank
   void Union(int x, int y)
   {
     x = Find(x);
     y = Find(y);
-
-    if(rank[x] < rank[y])
-    {
-      uf[x] = y;
-    }
-    else if(rank[x] > rank[y])
-    {
-      uf[y] = x;
-    }
-    else
-    {
-        uf[y] = x;
-        rank[x]++;
-    }
+    if(rank[x] < rank[y])      uf[x] = y;
+    else if(rank[x] > rank[y]) uf[y] = x;
+    else            rank[x]++, uf[y] = x;
   }
 
 };
@@ -104,13 +88,10 @@ int main()
 
   for(int i=0; i<M; i++)
   {
-    int w = std::get<0>(E[i]);
-    int u = std::get<1>(E[i]);
-    int v = std::get<2>(E[i]);
-    if(!uf.SameSet(u, v))
+    if(!uf.SameSet(std::get<1>(E[i]), std::get<2>(E[i])))
     {
-      uf.Union(u, v);
-      sol += w;
+      uf.Union(std::get<1>(E[i]), std::get<2>(E[i]));
+      sol += std::get<0>(E[i]);
     }
   }
 

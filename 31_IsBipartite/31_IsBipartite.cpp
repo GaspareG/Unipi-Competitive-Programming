@@ -48,7 +48,7 @@ int main()
     memset(g,0,sizeof (g));
     int n;
     cin>>n;
-  
+
     for(int i=0;i<n;i++)
     {
       for(int j=0;j<n;j++)
@@ -56,7 +56,7 @@ int main()
         cin>>g[i][j];
       }
     }
-    
+
     cout<<isBipartite(g,n)<<endl;
   }
   return 0;
@@ -81,12 +81,10 @@ bool dfs(vector<int>& seen, int G[][MAX], int idx, int V)
         if(G[idx][i] == 0) continue;
         if(seen[i] == 0)
         {
-            seen[i] = seen[idx] == 1 ? 2 : 1;
-            if(!dfs(seen, G, i, V))
-                return false;
+            seen[i] = (seen[idx] == 1) ? 2 : 1;
+            if(!dfs(seen, G, i, V)) return false;
         }
-        else if(seen[idx] == seen[i])
-            return false;
+        else if(seen[idx] == seen[i]) return false;
     }
 
     return true;
@@ -107,5 +105,6 @@ bool isBipartite(int G[][MAX],int V)
         seen[i] = 1;
         sol &= dfs(seen, G, i, V);
     }
+
     return sol;
 }

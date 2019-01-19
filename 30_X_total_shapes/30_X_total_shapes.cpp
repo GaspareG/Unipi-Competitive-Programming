@@ -48,24 +48,17 @@ void dfs(const std::vector<std::string> &S,
 
 void solve()
 {
-  int N,M;
+  int N, M, cc=0;
   std::cin >> N >> M;
   std::vector<std::string> S(N);
   std::vector<std::vector<bool>> seen(N, std::vector<bool>(M, false));
+
   for(int i=0; i<N; i++) std::cin >> S[i];
 
-  int cc = 0;
   for(int i=0; i<N; i++)
-  {
     for(int j=0; j<M; j++)
-    {
       if(S[i][j] == 'X' && !seen[i][j])
-      {
-        cc++;
-        dfs(S, seen, i, j);
-      }
-    }
-  }
+        cc++, dfs(S, seen, i, j);
 
   std::cout << cc << std::endl;
 }
