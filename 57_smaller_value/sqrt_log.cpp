@@ -59,10 +59,12 @@ int main()
 
   for(int i=0; i<M; i++)
   {
-    while(cl<Q[i][0]) ft.add(V[cl++], -1); // Remove on left
     while(cl>Q[i][0]) ft.add(V[--cl], +1); // Add on left
-    while(cr>Q[i][1]) ft.add(V[--cr], -1); // Remove on right
     while(cr<Q[i][1]) ft.add(V[cr++], +1); // Add on right
+
+    while(cl<Q[i][0]) ft.add(V[cl++], -1); // Remove on left
+    while(cr>Q[i][1]) ft.add(V[--cr], -1); // Remove on right
+
     sol[Q[i][3]] = ft.sum(Q[i][2]);
   }
 
