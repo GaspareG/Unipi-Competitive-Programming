@@ -37,7 +37,6 @@
 #include <algorithm>
 #include <cmath>
 
-
 template <class T>
 struct fenwick_tree {
   std::vector<T> x;
